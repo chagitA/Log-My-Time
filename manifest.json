@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Log-My-Time",
+    "description": "Manage and track your work hours with ease, and export them to a data file",
+    "version": "1.0",
+    "permissions": [
+        "scripting",
+        "storage",
+        "identity",
+        "https://www.googleapis.com/auth/spreadsheets"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
